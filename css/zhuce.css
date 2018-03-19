@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 525040 */
+    src: url('//at.alicdn.com/t/font_525040_khdbodfkkg74x6r.eot');
+    src: url('//at.alicdn.com/t/font_525040_khdbodfkkg74x6r.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_525040_khdbodfkkg74x6r.woff') format('woff'),
+    url('//at.alicdn.com/t/font_525040_khdbodfkkg74x6r.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_525040_khdbodfkkg74x6r.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style: normal;
+}
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+.box{
+   box-sizing: border-box;
+    padding:0.5rem 1rem 0;
+}
+.top_close{
+    width:3rem;
+    margin-left: -0.55rem;
+}
+.top_close i{
+    font-size: 2.5rem;
+    color:gray;
+}
+.top h2{
+    font-weight: normal;
+    margin-top: 1rem;
+}
+.top p{
+    margin-top: 2rem;
+    color:gray;
+    font-size: 0.9rem;
+}
+.top p span{
+    color: #1cacff;
+}
+form{
+    margin-top: 2rem;
+}
+form input[type=text]{
+    outline: none;
+    width:13rem;
+    height:2rem;
+    margin-bottom:1rem;
+    border:0.05rem solid gray;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    padding:0 0.3rem;
+}
+form input[type=submit]{
+    width:13rem;
+    height:1.8rem;
+    background: deepskyblue;
+    border:0.01rem solid deepskyblue;
+    border-radius: 0.3rem;
+    color: white;
+    font-size: 1rem;
+    margin-left: 3rem;
+}
+.bottom{
+    position: fixed;
+    bottom:0;
+    left:0;
+    height:9rem;
+    width:100%;
+    box-sizing: border-box;
+    padding:0 1rem;
+}
+.bottom_top{
+    height:2rem;
+}
+.b_t_xian{
+    width:33%;
+    height:0.7rem;
+    float: left;
+    border-bottom: 0.01rem solid gray;
+}
+.b_t_xian2{
+    width:33%;
+    height:0.7rem;
+    float: right;
+    border-bottom: 0.01rem solid gray;
+}
+.b_t_txt{
+    float: left;
+    width:33%;
+    color: gray;
+    text-align: center;
+}
+.bottom_bottom{
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.b_b_weixin,.b_b_qq,.b_b_email{
+    float: left;
+    width:calc(100% / 3);
+    text-align: center;
+}
+.b_b_weixin p,.b_b_qq p,.b_b_email p{
+    color:#999;
+    font-size: 0.9rem;
+}
+.b_b_weixin svg,.b_b_qq svg,.b_b_email svg{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.b_b_email svg{
+    color:red;
+}

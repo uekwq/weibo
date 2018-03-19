@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/wo.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="http://at.alicdn.com/t/font_524955_zjxhod8g2u2wewmi.js"></script>
+</head>
+<style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        width: 18rem;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide:nth-child(2n) {
+        width: 17rem;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 17rem;
+    }
+</style>
+<body>
+                            <!--头-->
+<header>
+    <div class="header_left"><a href="">添加好友</a></div>
+    <div class="header_mid">我</div>
+    <div class="header_right"><a href="">设置</a></div>
+</header>
+                            <!--我的信息-->
+<div class="mine">
+    <div class="mine_top">
+        <div class="m_t_left"><img src="img/touxiang.jpg" alt=""></div>
+        <div class="m_t_mid">
+            <div class="m_t_m_top">赵丽颖</div>
+            <div class="m_t_m_bottom">
+                <span>简介：</span>
+                <span>一个演员</span>
+            </div>
+        </div>
+        <div class="m_t_right">
+            <div class="vip"></div>
+            <div class="viptxt">会员&gt;</div>
+        </div>
+    </div>
+    <div class="mine_bottom">
+        <div class="m_b_weibo">
+            <span>326</span>
+            <p>微博</p>
+        </div>
+        <div class="m_b_guanzhu">
+            <span>255</span>
+            <p>关注</p>
+        </div>
+        <div class="m_b_fensi">
+            <span>46</span>
+            <p>粉丝</p>
+        </div>
+    </div>
+</div>
+                            <!--为你推荐-->
+<div class="tuijian">
+    <div class="tuijian_top">为你推荐</div>
+    <div class="tuijian_bottom">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="tj_b_ge">
+                        <div class="tj_b_g_top">电影博主</div>
+                        <div class="tj_b_g_mid">
+                            <div class="tj_b_g_m_kuai">
+                                <div><img src="img/touxiang.jpg" alt=""></div>
+                                <p>蓝影志</p>
+                            </div>
+                            <div class="tj_b_g_m_kuai">
+                                <div><img src="img/touxiang2.jpg" alt=""></div>
+                                <p>莫寒</p>
+                            </div>
+                            <div class="tj_b_g_m_kuai">
+                                <div><img src="img/touxiang3.jpg" alt=""></div>
+                                <p>上栗依次</p>
+                            </div>
+                        </div>
+                        <div class="tj_b_g_bottom">+关注他们</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="tj_b_ge">
+                        <div class="tj_b_g_top">运动健身达人</div>
+                        <div class="tj_b_g_mid">
+                            <div class="tj_b_g_m_kuai">
+                                <div><img src="img/touxiang.jpg" alt=""></div>
+                                <p>蓝影志</p>
+                            </div>
+                            <div class="tj_b_g_m_kuai">
+                                <div><img src="img/touxiang2.jpg" alt=""></div>
+                                <p>莫寒</p>
+                            </div>
+                            <div class="tj_b_g_m_kuai">
+                                <div><img src="img/touxiang3.jpg" alt=""></div>
+                                <p>上栗依次</p>
+                            </div>
+                        </div>
+                        <div class="tj_b_g_bottom">+关注他们</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="tj_b_ge">
+                        <div class="tj_b_g_top">游戏博主</div>
+                        <div class="tj_b_g_mid">
+                            <div class="tj_b_g_m_kuai">
+                                <div><img src="img/touxiang.jpg" alt=""></div>
+                                <p>蓝影志</p>
+                            </div>
+                            <div class="tj_b_g_m_kuai">
+                                <div><img src="img/touxiang2.jpg" alt=""></div>
+                                <p>莫寒</p>
+                            </div>
+                            <div class="tj_b_g_m_kuai">
+                                <div><img src="img/touxiang3.jpg" alt=""></div>
+                                <p>上栗依次</p>
+                            </div>
+                        </div>
+                        <div class="tj_b_g_bottom">+关注他们</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <!--<div class="swiper-pagination"></div>-->
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="js/swiper.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 'auto',
+                spaceBetween: 30,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+    </div>
+</div>
+                            <!--资料卡-->
+<ul class="card">
+    <li class="card_every">
+        <div class="c_e_left">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-xiaolian"></use>
+            </svg>
+        </div>
+        <div class="c_e_mid">
+            <span>新的好友</span>
+            <span>看看这是谁</span>
+        </div>
+        <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+    </li>
+    <li class="card_every">
+        <div class="c_e_left">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-jiangpai"></use>
+            </svg>
+        </div>
+        <div class="c_e_mid">
+            <span>签到</span>
+            <span></span>
+        </div>
+        <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+    </li>
+</ul>
+<ul class="card">
+    <li class="card_every">
+                                    <div class="c_e_left">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-youjian"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="c_e_mid">
+                                        <span>我的赞</span>
+                                        <span>收藏，移到这里了</span>
+                                    </div>
+                                    <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+                                </li>
+    <li class="card_every">
+                                    <div class="c_e_left">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-jisuanqi"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="c_e_mid">
+                                        <span>微博钱包</span>
+                                        <span>抢免息提大额</span>
+                                    </div>
+                                    <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+                                </li>
+</ul>
+<ul class="card">
+    <li class="card_every">
+                                    <div class="c_e_left">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-baogao"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="c_e_mid">
+                                        <span>熊猫守护者</span>
+                                        <span>种竹子，保护大熊猫栖息地</span>
+                                    </div>
+                                    <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+                                </li>
+    <li class="card_every">
+                                    <div class="c_e_left">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-guzhang"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="c_e_mid">
+                                        <span>微博运动</span>
+                                        <span>减肥大作战，节后甩膘宝典</span>
+                                    </div>
+                                    <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+                                </li>
+</ul>
+<ul class="card">
+    <li class="card_every">
+                                    <div class="c_e_left">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-linggan"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="c_e_mid">
+                                        <span>免流量</span>
+                                        <span>流量免费任性玩</span>
+                                    </div>
+                                    <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+                                </li>
+    <li class="card_every">
+                                    <div class="c_e_left">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-mubiao"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="c_e_mid">
+                                        <span>粉丝服务</span>
+                                        <span>写文章、发点评、赚粉丝</span>
+                                    </div>
+                                    <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+                                </li>
+</ul>
+<ul class="card">
+    <li class="card_every">
+                                    <div class="c_e_left">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-naozhong"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="c_e_mid">
+                                        <span>粉丝头条</span>
+                                        <span>推广微博及账号的利器</span>
+                                    </div>
+                                    <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+                                </li>
+    <li class="card_every">
+                                    <div class="c_e_left">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-kafeibei"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="c_e_mid">
+                                        <span>客服中心</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="c_e_right"><i class="iconfont">&#xe61d;</i></div>
+                                </li>
+</ul>
+<div class="footer">
+                                <div class="footer_weibo">
+                                    <a href="index.html">
+                                        <i class="iconfont">&#xe70a;</i>
+                                        <div>微博</div>
+                                    </a>
+                                </div>
+                                <div class="footer_xiaoxi">
+                                    <i class="iconfont">&#xe637;</i>
+                                    <div>消息</div>
+                                </div>
+                                <div class="footer_jiahao">
+                                    <div>+</div>
+                                </div>
+                                <div class="footer_faxian">
+                                    <i class="iconfont">&#xe686;</i>
+                                    <div>发现</div>
+                                </div>
+                                <div class="footer_wo">
+                                    <i class="iconfont">&#xe62d;</i>
+                                    <div>我</div>
+                                </div>
+                            </div>
+</body>
+</html>
